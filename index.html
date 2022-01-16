@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ozdemir</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+		    <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="icon" href="ozdemir.github.io/images/epicface.png" type="image/x-icon" />
+
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+		<link rel="manifest" href="/favicon/site.webmanifest">
+	</head>
+	<body>
+		<div id="navbar">
+			<ul>
+				<li><a href="https://github.com/ozdemirdevp?tab=repositories">Paylaşımlar</a></li>
+				<li><a href="https://ozdemir.github.io">Hakkımda</a></li>
+			</ul>
+		</div>
+		<div id="header">
+			<img src="images/ozdemir_profile.jpg" alt="Profil Fotoğrafı" id="pfp">
+			<h1>ozdemir </h1>
+			<img src="images/kod_header.gif" alt="Başlık" id="headerpic">
+	    </div>
+		<div>
+		    <h1 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Hakkımda</h1>
+		</div>    
+		<div>
+		    <p class="kimim">Merhaba ben Yiğit! İlgi alanlarım yazılım ve sunucular üzerine ve kendimi geliştirmek için bu alandaki etkinliklere katılıp, projeler geliştiriyorum.</p>
+		</div>    
+		<div>
+			<p class="istersen" style="visibility: visible; animation-name: fadeInUp;">Hemen iletişime geç! <a href="mailto:ozddyigit@gmail.com">ozddyigit@gmail.com</a>. </p>
+        </div>
+		</div>
+		<style>
+			html,body{
+				height:100%;    
+				margin:0;
+				padding:0;
+			}
+
+			#navbar {
+				background-color: #0E63E3;
+				height: 52px;
+			}
+			#navbar ul {
+				margin: 0;
+				padding: 0;
+				top: 0;
+				overflow: hidden;
+				position: fixed;
+				list-style-type: none;
+			}
+			#navbar ul li {
+				float: left;
+			}
+			#navbar ul li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				
+				font-size: 1rem;
+				font-family: "Poppins";
+				font-weight: lighter;
+				text-shadow: 2px 2px 0 rgba(0,0,0,.2);
+			}
+			#navbar li a:hover:not(.active) {
+				background-color: #678BF5;
+			}
+
+			.active {
+				background-color: #E34B24;
+				color: black;
+			}
+
+			#header {
+				background-color: #498EF5;
+				padding: 60px;
+				overflow: hidden;
+				height: 200px;
+			}
+			#pfp {
+				margin-right: 60px;
+				float: left;
+				border: 5px solid azure;
+				border-radius: 50%;
+				box-shadow: 5px 5px 0 rgba(0,0,0,.2);
+				transition: 100ms;
+			}
+			#pfp:hover {
+				border: 3px solid azure;
+				border-radius: 20%;
+				box-shadow: 7px 7px 0 rgba(0,0,0,.2);
+			}
+			#header h1 {
+				color: azure;
+				margin-left: 15px;
+				margin-right: 60px;
+				float: left;
+				margin: 2px 0 0 0;
+				vertical-align: middle;
+				line-height: 200px;
+				font-family: "Poppins";
+				font-weight: bolder; 
+				font-size: 5rem;
+				text-shadow: 5px 5px 0 rgba(0,0,0,.2);
+			}
+			#headerpic {
+				margin-left: 1000px;
+				margin-top: -400px;
+				height: 600px;
+				width: 1066px;
+				border-radius: 20%;
+				border: 5px solid azure;
+				transform: rotate(-15deg);
+			}
+
+			#content {
+				width: 850px;
+				margin: 0 auto;
+				margin-top: -24px;
+				background-color: aliceblue;
+				box-shadow: 5px 5px rgba(0,0,0,.2);
+			}
+			#content p {
+				color: #000;
+				font-size: 1.5rem;
+				font-family: "Poppins";
+				font-weight: lighter;
+				line-height: 2rem;
+				text-shadow: 2px 2px 0 rgba(0,0,0,.2);
+			}
+		</style>
+	</body>
+</html>
