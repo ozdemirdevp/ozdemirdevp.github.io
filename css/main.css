@@ -39,14 +39,14 @@ img {
 
 .social-container {
   position: absolute;
-  left: 20rem;
-  bottom: 42rem;
+  left: 2rem;
+  bottom: 2rem;
 }
 
 .social-container i {
   font-size: 2rem;
   margin-right: 0.25rem;
-  color: white;
+  color: gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
